@@ -7,7 +7,6 @@
 $originalPlaylistUrl = 'http://xtreamcode.ex/get.php?username=xxxx&password=1234&type=m3u_plus&output=ts';  // Original playlist source
 $modifiedPlaylistUrl = 'http://m3u4u.com/m3u/xxxx';  // Modified playlist from m3u4u.com
 
-
 // Local file paths/names
 $originalFile = 'original_playlist.m3u';
 $modifiedFile = 'modified_playlist.m3u';
@@ -129,4 +128,3 @@ if (!$useLocalFiles) {
 		unlink($modifiedFile);
 	}
 }
-
